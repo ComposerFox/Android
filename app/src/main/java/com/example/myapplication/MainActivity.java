@@ -25,8 +25,8 @@ Button btn;
 //            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
 //            return insets;
 //        });
-        text = findViewById(R.id.text);
-        btn = findViewById(R.id.btn);
+//        text = findViewById(R.id.text);
+//        btn = findViewById(R.id.btn);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -50,13 +50,13 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            
+
             <CalendarView
                 android:id="@+id/calendar"
                 android:showWeekNumber="false"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
-            
+
             <TimePicker
                 android:id="@+id/timepicker"
                 android:timePickerMode="spinner"

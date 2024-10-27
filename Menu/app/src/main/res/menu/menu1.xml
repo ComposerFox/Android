@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemRed"
+        android:title="배경색빨강"/>
+    <item
+        android:id="@+id/itemBlue"
+        android:title="배경색파랑ㅇ"/>
+    <item
+        android:id="@+id/itemGreen"
+        android:title="배경색녹색"/>
+    <item
+        android:title="기타">
+        <menu>
+            <item
+                android:id="@+id/subRotate"
+                android:title="회전30도"/>
+            <item
+                android:id="@+id/subSize"
+                android:title="크기2배"/>
+        </menu>
+    </item>
+</menu>
